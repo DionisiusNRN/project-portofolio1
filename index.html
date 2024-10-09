@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link href="./src/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8e744da4dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Muhammad Adli Nur Syafi'i</a>
+
+      <a href="#news">Experience</a>
+      <a href="#contact">Blog</a>
+      <a href="#about">Social Media</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Hero page Start -->
+    <section id="home" class="pt-32">
+      <div class="container mx-10">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <div>
+              <h1 class="font-bold text-5xl">
+                I'm Muhammad Adli Nur Syafi'i A Dentis
+              </h1>
+            </div>
+            <div>
+              <p class="text-base pt-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                voluptas modi tempora, minus labore amet eaque nostrum
+                repellendus, assumenda praesentium unde a. Iure nemo asperiores
+                architecto corporis in? Ullam, ducimus.
+              </p>
+            </div>
+            <div class="mt-5">
+              <button
+                class="text-base font-semibold text-white bg-black py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              >
+                Contact Me!
+              </button>
+            </div>
+          </div>
+          <div class="w-full self-center pl-4 lg:w-1/2">
+            <div class="ml-10">
+              <img
+                src="./img/image.png"
+                alt="profil"
+                class="rounded-full max-w-96 mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Page End -->
+
+    <!-- Experience Page Start -->
+    <section class="container">
+      <div class="py-20">
+        <div>
+          <h3 class="font-semibold text-2xl pt-10 pb-5 pl-14">Experience</h3>
+        </div>
+        <!-- content experience -->
+        <div class="container bg-experience w-8/12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner px-20 py-20 lg:py-0">
+              <!-- slide 1 start -->
+              <div class="item active">
+                <div class="flex row text-white px-10">
+                  <div class="relative col-sm">
+                    <img src="./img/exper.jpg" alt="experience" />
+                  </div>
+                  <div class="text-base font-bold text-left mx-2 mt-3 col-lg">
+                    <h1 class="pb-2">Photographer</h1>
+                    <p class="text-base font-medium text-white lg:w-2/3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Delectus maxime quod, quasi deleniti tenetur ea autem, non
+                      impedit dicta expedita dolores, fuga et porro quisquam
+                      nihil. Nam, inventore nihil! Fugiat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- slide 1 end -->
+
+              <!-- slide 2 start -->
+              <div class="item">
+                <div class="flex row text-white px-10 lg:px-20">
+                  <div class="relative col-sm">
+                    <img src="./img/exper.jpg" alt="experience" />
+                  </div>
+                  <div class="text-base font-bold text-left mx-2 mt-3 col-lg">
+                    <h1 class="pb-2">Photographer</h1>
+
+                    <p class="text-base font-medium text-white w-2/3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Delectus maxime quod, quasi deleniti tenetur ea autem, non
+                      impedit dicta expedita dolores, fuga et porro quisquam
+                      nihil. Nam, inventore nihil! Fugiat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- slide 2 end -->
+
+              <!-- slide 3 start -->
+              <div class="item">
+                <div class="flex row text-white px-10">
+                  <div class="relative col-sm">
+                    <img src="./img/exper.jpg" alt="experience" />
+                  </div>
+                  <div class="text-base font-bold text-left mx-2 mt-3 col-lg">
+                    <h1 class="pb-2">Photographer</h1>
+
+                    <p class="text-base font-medium text-white w-2/3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Delectus maxime quod, quasi deleniti tenetur ea autem, non
+                      impedit dicta expedita dolores, fuga et porro quisquam
+                      nihil. Nam, inventore nihil! Fugiat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- slide 3 end -->
+            </div>
+
+            <!-- Left and right controls -->
+            <a
+              class="left carousel-control"
+              href="#myCarousel"
+              data-slide="prev"
+            >
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="right carousel-control"
+              href="#myCarousel"
+              data-slide="next"
+            >
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience Page End -->
+
+    <!-- Blog Page Start -->
+    <div class="container pb-20">
+      <div>
+        <h3 class="font-semibold text-2xl pt-10 pb-5 pl-14">Blog</h3>
+      </div>
+      <div class="w-5 h">
+        <section id="slider">
+          <input type="radio" name="slider" id="s1" />
+          <input type="radio" name="slider" id="s2" />
+          <input type="radio" name="slider" id="s3" checked />
+          <input type="radio" name="slider" id="s4" />
+          <input type="radio" name="slider" id="s5" />
+
+          <label for="s1" id="slide1" class="text-center text-white"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+            perferendis voluptate delectus, veritatis molestias quia minus
+            laboriosam qui! Est ipsam iusto quam quod nisi autem perferendis
+            vitae ipsa consequuntur cum.</label
+          >
+          <label for="s2" id="slide2" class="text-center text-white"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+            perferendis voluptate delectus, veritatis molestias quia minus
+            laboriosam qui! Est ipsam iusto quam quod nisi autem perferendis
+            vitae ipsa consequuntur cum.</label
+          >
+          <label for="s3" id="slide3" class="text-center text-white"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+            perferendis voluptate delectus, veritatis molestias quia minus
+            laboriosam qui! Est ipsam iusto quam quod nisi autem perferendis
+            vitae ipsa consequuntur cum.</label
+          >
+          <label for="s4" id="slide4" class="text-center text-white"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+            perferendis voluptate delectus, veritatis molestias quia minus
+            laboriosam qui! Est ipsam iusto quam quod nisi autem perferendis
+            vitae ipsa consequuntur cum.</label
+          >
+          <label for="s5" id="slide5" class="text-center text-white"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+            perferendis voluptate delectus, veritatis molestias quia minus
+            laboriosam qui! Est ipsam iusto quam quod nisi autem perferendis
+            vitae ipsa consequuntur cum.</label
+          >
+        </section>
+      </div>
+    </div>
+    <!-- Blog Page End -->
+
+    <!-- Footer Start -->
+    <footer class="footer" id="SM">
+      <div class="social">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-youtube"></i></a>
+      </div>
+
+      <ul class="text-sm text-white">
+        <a class="text-white text-sm no-underline" href="#">FAQ</a>
+        <a href="#">Services</a>
+        <a href="#">About Me</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy policy</a>
+      </ul>
+
+      <p class="copyright">
+        @ 2024
+        <a
+          href="https://www.linkedin.com/in/zulafa-yahya-wibowo-52a364323/?originalSubdomain=id"
+          >Zulafa Yahya W</a
+        >,
+        <a
+          href="https://www.linkedin.com/in/muhammad-davin-al-hisyam-ab4223272/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=id"
+          >Muhammad Davin A.H</a
+        >,
+        <a
+          href="https://www.linkedin.com/in/dionisius-nusaca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
+
+          "
+          >Dionisius Nusaca R.N</a
+        >
+        | All Rights Reserved
+      </p>
+    </footer>
+    <!-- Footer End -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
